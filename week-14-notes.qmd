@@ -4,6 +4,27 @@ format: html
 ---
 ## Tuesday April 18
 
+```{r}
+packages <- c(
+    # Old packages
+    "ISLR2",
+    "dplyr",
+    "tidyr",
+    "readr",
+    "purrr",
+    "repr",
+    "tidyverse",
+    "kableExtra",
+    "IRdisplay",
+    # NEW
+    "torch",
+    "torchvision",
+    "luz"
+)
+
+renv::install(packages)
+sapply(packages, require, character.only=TRUE)
+```
 
 
 
