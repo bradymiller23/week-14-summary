@@ -21,7 +21,10 @@ packages <- c(
     "torchvision",
     "luz",
     "dimRed",
-    "RSpectra"
+    "RSpectra",
+    'corrplot',
+    'car',
+    'RDRToolbox'
 )
 
 renv::install(packages)
